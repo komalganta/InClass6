@@ -1,6 +1,7 @@
 .table {
    width: 400px;
    height: 300px;
+   background: linear-gradient(to bottom, forestgreen, darkgreen);
 
    /* TODO: Add part of your solution here */
    
@@ -22,12 +23,17 @@
    line-height: 160px;
    text-align: center;
    font-size: 80px;
+   box-shadow: 3px 3px 0px black;
+   border-radius: 5px;
 
    /* TODO: Add part of your solution here */
 
 }      
 
 .card-top {
+   position: absolute;
+   top: 100px;
+   left: 150px;
    /* TODO: Add part of your solution here */
 
 }
