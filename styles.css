@@ -1,77 +1,67 @@
 .table {
-   width: 400px;
-   height: 300px;
-   background: linear-gradient(to bottom, forestgreen, darkgreen);
-
-   /* TODO: Add part of your solution here */
-   
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(to bottom, forestgreen, darkgreen);
 }
 
 .card-red {
-   color: red;
+    color: red;
 }
 
 .card-black {
-   color: black;
+    color: black;
 }
 
 .card {
-   background-color: whitesmoke;
-   border: 1px solid black;         
-   width: 100px;
-   height: 160px;
-   line-height: 160px;
-   text-align: center;
-   font-size: 80px;
-   box-shadow: 3px 3px 0px black;
-   border-radius: 5px;
-
-   /* TODO: Add part of your solution here */
-
-}      
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 100px;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+    font-size: 80px;
+    box-shadow: 3px 3px 0px black;
+    border-radius: 5px;
+}
 
 .card-top {
-   position: absolute;
-   top: 100px;
-   left: 150px;
-   z-index: 3;
-   /* TODO: Add part of your solution here */
-
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 3;
 }
 
 .card-bottom {
-   position: absolute;
-   top: 120px;
-   left: 240px;
-   z-index: 5;
-   /* TODO: Add part of your solution here */
-
+    position: absolute;
+    top: 120px;
+    left: 240px;
+    z-index: 5;
 }
 
 .heart {
-   color: red;
-   font-size: 28px; 
-   width: 30px;
-   height: 30px;  
-   line-height: 30px;
+    color: red;
+    font-size: 28px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
 }
 
 .spade {
-   color: black;
-   font-size: 36px; 
-   width: 30px;
-   height: 30px;  
-   line-height: 30px;
+    color: black;
+    font-size: 36px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
 }
 
 .top-left {
-   position: absolute;
-   top: 2px;
-   left: 2px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
 }
 
 .bottom-right {
-   position: absolute;
-   bottom: 2px;
-   right: 2px;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
 }
